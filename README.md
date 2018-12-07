@@ -10,3 +10,4 @@
 * [timeZones.txt](http://download.geonames.org/export/dump/timeZones.txt)
 * [countryInfo.txt](http://download.geonames.org/export/dump/countryInfo.txt)
 
+### Step 2: Run script to create schema
