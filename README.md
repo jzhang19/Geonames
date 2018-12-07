@@ -11,3 +11,17 @@
 * [countryInfo.txt](http://download.geonames.org/export/dump/countryInfo.txt)
 
 ### Step 2: Run script to create schema
+
+
+
+### Bugs:
+* #### Error: 1290. --secure-file-priv option [Reference](https://stackoverflow.com/questions/32737478/how-should-i-tackle-secure-file-priv-in-mysql)
+		1. SHOW VARIABLES LIKE 'secure_file_priv';
+		2. Disable secure-file-priv. This must be removed from startup and cannot be modified dynamically. To do this check your MySQL start up parameters (depending on platform) and my.ini.
+
+* #### Error: 1366. Incorrect integer value: "for column 'elevation' at row 1 [Reference](https://bugs.mysql.com/bug.php?id=18551)
+		* set sql_mode = ''; -- empty string means 'traditional MySQL-mode'
+		
+* #### Error: 1300. Invalid utf8 character string: ''Afikanisitani,'Apekanikana,A Phu Han (Afghanistan),A Phú Hãn ' [Reference]()
+		*
+
