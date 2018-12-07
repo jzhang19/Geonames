@@ -22,6 +22,9 @@
 * #### Error: 1366. Incorrect integer value: "for column 'elevation' at row 1 [Reference](https://bugs.mysql.com/bug.php?id=18551)
 		* set sql_mode = ''; -- empty string means 'traditional MySQL-mode'
 		
-* #### Error: 1300. Invalid utf8 character string: ''Afikanisitani,'Apekanikana,A Phu Han (Afghanistan),A Phú Hãn ' [Reference]()
-		*
+* #### Error: 1300. Invalid utf8 character string: ''Afikanisitani,'Apekanikana,A Phu Han (Afghanistan),A Phú Hãn ' [Reference](https://stackoverflow.com/questions/766809/whats-the-difference-between-utf8-general-ci-and-utf8-unicode-ci)
+		* Use utf8mb4_unicode_ci
+		
+* #### Error: 2013. Lost connection to MySQL server during query [Reference](https://stackoverflow.com/questions/10563619/error-code-2013-lost-connection-to-mysql-server-during-query)
+		* Edit → Preferences → SQL Editor → DBMS connection read time out
 
