@@ -28,3 +28,10 @@
 * #### Error: 2013. Lost connection to MySQL server during query [Reference](https://stackoverflow.com/questions/10563619/error-code-2013-lost-connection-to-mysql-server-during-query)
 		* Edit → Preferences → SQL Editor → DBMS connection read time out
 
+
+
+
+
+## MySQL notes
+	* SHOW FULL PROCESSLIST
+	
