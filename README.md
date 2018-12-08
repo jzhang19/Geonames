@@ -11,8 +11,7 @@
 * [countryInfo.txt](http://download.geonames.org/export/dump/countryInfo.txt)
 
 ### Step 2: Run script to create schema
-
-
+The scripts from here [Reference](https://github.com/codigofuerte/GeoNames-MySQL-DataImport)
 
 ### Bugs:
 * #### Error: 1290. --secure-file-priv option [Reference](https://stackoverflow.com/questions/32737478/how-should-i-tackle-secure-file-priv-in-mysql)
